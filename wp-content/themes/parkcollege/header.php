@@ -96,8 +96,26 @@ include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 					<div id="logo" class="site-title-image">
 						<h1>
 							<a href="<?php echo home_url(); ?>"><img src="<?php echo $data['logo_image']; ?>" alt="" /></a>
-						</h1>
-					</div>
+						</h1></div>
+
+
+
+
+
+
+
+
+
+<div class="header-text-block"><h1 class="header-text">Academia <span class="theme-color">SAP</span> Trainning</h1><p class="header-slogan">Fique por dentro das novidades sobre o sistema SAP e aproveite descontos em cursos.</p></div>
+
+
+
+
+
+
+
+
+
 				
 				<?php elseif( $data['logo_text_dark'] ) : ?>	
 					<div id="logo">
