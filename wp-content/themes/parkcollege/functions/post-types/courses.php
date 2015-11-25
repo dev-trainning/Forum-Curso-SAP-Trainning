@@ -5,8 +5,8 @@ function create_post_type_course() {
 	register_post_type('course', 
 		array(
 			'labels' => array(
-				'name' => __( 'Courses', 'qns' ),
-                'singular_name' => __( 'Course', 'qns' ),
+				'name' => __( 'Cursos', 'qns' ),
+                'singular_name' => __( 'Cursos', 'qns' ),
 				'add_new' => __('Add New', 'qns' ),
 				'add_new_item' => __('Add New Course' , 'qns' )
 			),
@@ -42,21 +42,21 @@ add_action('add_meta_boxes', 'add_course_meta_box');
 $prefix = 'qns_';  
 $course_meta_fields = array(  
     array(  
-        'label'=> __('Course Name','qns'),  
+        'label'=> __('Nome do Curso','qns'),  
         'desc'  => 'e.g. "BSc (Hons) WordPress Development"',  
         'id'    => $prefix.'course_name',  
         'type'  => 'text'
     ),
 
 	array(  
-        'label'=> __('Course ID','qns'),  
+        'label'=> __('ID do Curso','qns'),  
         'desc'  => 'e.g. "001"',  
         'id'    => $prefix.'course_id',  
         'type'  => 'text'
     ),
 
 	array(  
-        'label'=> __('Program Type','qns'),  
+        'label'=> __('Tipo','qns'),  
         'desc'  => 'e.g. "Undergraduate"',  
         'id'    => $prefix.'program_type',  
         'type'  => 'text'

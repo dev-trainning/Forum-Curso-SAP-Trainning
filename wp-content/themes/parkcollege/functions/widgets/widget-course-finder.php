@@ -44,13 +44,13 @@ class qns_course_finder_widget extends WP_Widget {
 		<form method="get" action="<?php echo esc_url( home_url( '/' ) ); ?>" class="course-finder-form clearfix">
 
 			<select name="keyword-type">
-				<option value="course_id"><?php _e('Course ID','qns'); ?></option>
-				<option value="course_name"><?php _e('Course Name','qns'); ?></option>
-				<option value="program_type"><?php _e('Program','qns'); ?></option>
-				<option value="course_length"><?php _e('Length','qns'); ?></option>
+				<option value="course_id"><?php _e('ID do Curso','qns'); ?></option>
+				<option value="course_name"><?php _e('Nome do Curso','qns'); ?></option>
+				<option value="program_type"><?php _e('Tipo','qns'); ?></option>
+				<option value="course_length"><?php _e('Duração','qns'); ?></option>
 			</select>
 
-			<input type="text" onblur="if(this.value=='')this.value='<?php _e('Keywords','qns'); ?>';" onfocus="if(this.value=='<?php _e('Keywords','qns'); ?>')this.value='';" value="<?php _e('Keywords','qns'); ?>" name="s" />
+			<input type="text" onblur="if(this.value=='')this.value='<?php _e('Nome do Curso','qns'); ?>';" onfocus="if(this.value=='<?php _e('Nome do Curso','qns'); ?>')this.value='';" value="<?php _e('Nome do Curso','qns'); ?>" name="s" />
 			<input type="submit" value="Search" />
 			
 		</form>

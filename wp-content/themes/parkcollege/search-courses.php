@@ -45,9 +45,9 @@
 				<thead>
 					<tr>
 						<th><?php _e('ID','qns'); ?></th>
-						<th><?php _e('Course Name','qns'); ?></th>
-						<th><?php _e('Program','qns'); ?></th>
-						<th><?php _e('Length','qns'); ?></th>
+						<th><?php _e('Nome do Curso','qns'); ?></th>
+						<th><?php _e('Tipo','qns'); ?></th>
+						<th><?php _e('Duração','qns'); ?></th>
 					</tr>
 				</thead>
 				<tbody>
@@ -73,9 +73,9 @@
 
 						<tr>
 							<td data-title="<?php _e('ID','qns'); ?>"><?php echo $course_id; ?></td>
-							<td data-title="<?php _e('Course Name','qns'); ?>"><a href="<?php the_permalink(); ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php echo $course_name; ?></a></td>
-							<td data-title="<?php _e('Program','qns'); ?>"><?php echo $program_type; ?></td>
-							<td data-title="<?php _e('Length','qns'); ?>"><?php echo $course_length; ?></td>
+							<td data-title="<?php _e('Nome do Curso','qns'); ?>"><a href="<?php the_permalink(); ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php echo $course_name; ?></a></td>
+							<td data-title="<?php _e('Tipo','qns'); ?>"><?php echo $program_type; ?></td>
+							<td data-title="<?php _e('Duração','qns'); ?>"><?php echo $course_length; ?></td>
 						</tr>
 
 			<?php endwhile;?>

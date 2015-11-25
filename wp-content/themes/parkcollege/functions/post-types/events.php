@@ -5,7 +5,7 @@ function create_post_type_event() {
 	register_post_type('event', 
 		array(
 			'labels' => array(
-				'name' => __( 'Events', 'qns' ),
+				'name' => __( 'Próximos Cursos', 'qns' ),
                 'singular_name' => __( 'Event', 'qns' ),
 				'add_new' => __('Add New', 'qns' ),
 				'add_new_item' => __('Add New Event' , 'qns' )
@@ -42,20 +42,20 @@ add_action('add_meta_boxes', 'add_custom_meta_box');
 $prefix = 'qns_';  
 $custom_meta_fields = array(  
     array(  
-        'label'=> __('Event Date','qns'),  
+        'label'=> __('Data do Curso','qns'),  
         'desc'  => '',  
         'id'    => $prefix.'event_date',  
         'type'  => 'date'
     ),
 
 	array(  
-        'label'=> __('Event Time','qns'),  
+        'label'=> __('Período do Curso','qns'),  
         'desc'  => '',  
         'id'    => $prefix.'event_time',  
         'type'  => 'text'
     ),
 	array(  
-    	'label'=> __('Event Location','qns'),  
+    	'label'=> __('Local do Curso','qns'),  
     	'desc'  => '',  
     	'id'    => $prefix.'event_location',  
     	'type'  => 'text'

@@ -79,7 +79,7 @@
 				
 				<?php if ( $course_id != '' ) { ?>
 				<div class="title1 clearfix">
-				<h4><?php echo __('Course Code','qns') . ': ' . $course_id; ?></h4>
+				<h4><?php echo __('Código do Curso','qns') . ': ' . $course_id; ?></h4>
 				<div class="title-block"></div>
 				</div>
 				<?php } ?>

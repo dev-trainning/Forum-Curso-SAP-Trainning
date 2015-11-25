@@ -104,7 +104,7 @@
 				<hr class="space1">
 
 				<div class="title1 clearfix">
-					<h4><?php _e('Events','qns') ?></h4>
+					<h4><?php _e('Cursos no Calendário','qns') ?></h4>
 					<div class="title-block"></div>
 				</div>
 
@@ -219,7 +219,7 @@
 				<hr class="space1">
 
 				<div class="title1 clearfix">
-					<h4><?php _e('Events','qns') ?></h4>
+					<h4><?php _e('Cursos no Calendário','qns') ?></h4>
 					<div class="title-block"></div>
 				</div>
 
